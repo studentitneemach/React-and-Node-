@@ -1,0 +1,30 @@
+/* .all-dots {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    display: flex;
+    top: 85%;
+    justify-content: center;
+    z-index: 200;
+  }
+   /* 
+.dot {
+
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0px 3px;
+    background-color: transparent;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* border-radius: 50%;
+    display: inline-block;
+  }
+  .dot:hover {
+    background-color: rgba(55, 255, 255, 0.5);
+  }
+  .dot{
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+.active-dot{
+    background-color: rgba(55, 255, 255, 0.5);
+  }  */

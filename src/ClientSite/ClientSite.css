@@ -1,0 +1,17 @@
+.clientSite img {
+display: block;
+margin-top:50px;
+margin-bottom:40px;
+max-height: 80px;
+margin-left: calc(35%);
+border: 2px dotted rgb(184, 39, 39);
+}
+.clientSite span {  float: right;
+   margin-bottom: 5px;
+    margin-right: 100px;
+    line-height: 19px;
+}
+.p-site {
+   margin-left: 50px ;
+   margin-bottom: 10px;
+}

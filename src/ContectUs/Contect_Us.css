@@ -1,0 +1,119 @@
+.section-header{
+    text-align: center ;
+    padding-top:50px ;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+.info{
+    padding: 30px;
+    width: 100%;
+    border-radius: 4px;    
+}
+.row{   
+    font-weight: 600;
+    position:relative;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    line-height: normal;
+   
+}
+.email_p .call_p  {
+   display: inline;
+   padding-left: 25px;
+   color: red;
+   font-size: 20px ;
+   margin-bottom: 0px;
+   
+}
+
+.phone-p{
+    color:rgb(194, 3, 3) ;
+    cursor: pointer; 
+    font-size:30px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    border: 2px solid rgb(238, 7, 7);
+}
+.phone-p:hover{
+    background-color: rgb(113, 225, 169);
+}
+.telegram-contact{
+  font-size:15px;
+  width: 300px; 
+  text-decoration: none;
+cursor: pointer;  
+padding: 12px 50px;
+margin-top: 10px ;
+background:rgb(201, 49, 49);
+color: rgb(235, 220, 220);
+font-weight: 500;
+font-family: Tahoma;
+}
+
+ @media screen and (max-width: 480px){
+    .row{
+      text-align: justify;
+      padding-bottom: 0px;
+      /* background-color: red; */
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .telegram{
+      font-size:15px;
+      width: 100px; 
+    padding: 6px 30px;
+    }
+    }
+ 
+.line{
+    font-size: 27px;
+    color: rgb(20, 82, 214);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    
+  }
+  .line::before{
+    
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    bottom: 1px;
+    left: calc(50% - 60px);
+    background: rgb(20, 19, 19);
+  }
+  .line::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    bottom: 0px;
+    left: calc(50% - 20px);
+    background: rgb(24, 210, 110);
+  }
+  .footer-info center{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  .footer-info strong{
+    font-size: 15px;
+  }
+
+  .copyright{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }

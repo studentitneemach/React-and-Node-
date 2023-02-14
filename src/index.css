@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+  margin: 0;
+  /* background-color: black;
+color : white; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* padding: 20px; */
+  /* background: whitesmoke; */
+  background-color: rgb(131, 125, 105);
+        background-image: linear-gradient(to right, rgb(167, 147, 147) , rgb(218, 218, 135), rgb(173, 173, 127),rgb(183, 210, 203));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;}
+/* 
+img{
+  height: 80px;
+}
+
+  nav{
+    float: right;
+    color: red;
+    padding-top: 12rem;
+    float: left;
+    justify-content: space-between
+  }
+ul{
+margin-top: 0;
+color: red;     
+width: auto;
+height: auto;
+}
+    li{
+        cursor: pointer;
+            
+        text-decoration: underline;
+        top: 100%;
+        list-style-type:none;
+        padding: 10px;
+        display: block;
+        list-style-type: none;
+        position:relative;
+        overflow: hidden;
+        display: inline;
+    text-decoration: none;  
+    font-family:sans-serif;}
+    
+.active{
+    text-decoration: none;
+    color: rgb(0, 229, 255);}
+nav:active{
+color: rgb(13, 0, 255);
+}
+nav:hover{
+color: rgb(13, 0, 255);
+}
+
+
+
+.cart {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: auto;
+}
+.productsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  width: auto;
+  height: auto;
+}
+.btn {
+  border: none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #513282;
+}
+
+.heading {
+  padding: 25px 0;
+}
+.cartCount {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.cartCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+} */
